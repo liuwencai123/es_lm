@@ -87,10 +87,10 @@ if is_t:
 else:
     result = 'Low Risk'
 if st.button('Predict'):
-    st.markdown('## Risk grouping for LNM:  '+str(result))
+    st.markdown('## Risk grouping for LM:  '+str(result))
     if result == 'Low Risk':
         st.balloons()
-    st.markdown('## Probability of LNM:  '+str(prob)+'%')
+    st.markdown('## Probability of LM:  '+str(prob)+'%')
 #st.markdown('## The risk of bone metastases is '+str(prob/0.0078*1000//1/1000)+' times higher than the average risk .')
 
 #排版占行
